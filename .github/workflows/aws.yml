@@ -1,0 +1,11 @@
+- name: "AWS CodeBuild run build" Action For GitHub Actions
+  # You may pin to the exact commit or the version.
+  # uses: aws-actions/aws-codebuild-run-build@0a2ddc3a24e0f6b41d4a61635d87dcb2482c7b49
+  uses: aws-actions/aws-codebuild-run-build@v1.0.3
+  with:
+    # AWS CodeBuild Project Name
+    project-name: 
+    # Buildspec Override
+    buildspec-override: # optional
+    # Comma separated list of environment variables to send to CodeBuild
+    env-vars-for-codebuild: # optional
